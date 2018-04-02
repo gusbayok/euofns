@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAECEB"
+    android:orientation="vertical"
+    tools:context="com.gusbayok.qimen.qimen.Main2Activity">
+
+    <TextView
+        android:id="@+id/noresult"
+        android:visibility="gone"
+        android:padding="15dp"
+        android:text="No Result"
+        android:gravity="center"
+        android:textColor="#737272"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:divider="#fff"
+            android:dividerHeight="0dp"
+            android:cacheColorHint="#00000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>

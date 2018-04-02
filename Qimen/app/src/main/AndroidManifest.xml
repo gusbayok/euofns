@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.gusbayok.qimen.qimen">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!-- My Location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.example.mapdemo.permission.MAPS_RECEIVE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_ss"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_ss"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".ListAduanActivity"
+            android:label="@string/title_activity_list_aduan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TentangActivity"
+            android:label="@string/title_activity_tentang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PanduanActivity"
+            android:label="@string/title_activity_panduan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FeedbackActivity"
+            android:label="@string/title_activity_feedback"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AduanActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity
+            android:name=".ListProfilActivity"
+            android:label="@string/title_activity_list_profil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailMenuActivity"
+            android:label="@string/title_activity_detail_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListPemerintahanActivity"
+            android:label="@string/title_activity_list_pemerintahan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListPariwisataActivity"
+            android:label="@string/title_activity_list_pariwisata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailTentangActivity"
+            android:label="@string/title_activity_detail_tentang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailPanduanActivity"
+            android:label="@string/title_activity_detail_panduan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".WargaActivity"
+            android:label="@string/title_activity_warga" />
+        <activity
+            android:name=".LupaPassActivity"
+            android:label="@string/title_activity_lupa_pass"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBtTZeakhQ3MzRfCD8p6-5GhouJVI9pwuw" />
+
+        <activity
+            android:name=".MapsWargaActivity"
+            android:label="@string/title_activity_maps_warga"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".DaftarUserActivity"
+            android:label="@string/title_activity_daftar_user"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DetailAduanActivity"
+            android:label="@string/title_activity_detail_aduan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListAduanUmumActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2Activity"
+            android:theme="@style/Base.Theme.AppCompat.Dialog" />
+    </application>
+
+</manifest>

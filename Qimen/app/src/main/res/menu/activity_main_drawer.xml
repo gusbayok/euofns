@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/beranda"
+            android:icon="@drawable/ic_menu_beranda"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/ic_menu_login"
+            android:title="Login" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_menu_panduan"
+            android:title="Tentang Qimen" />
+        <item
+            android:id="@+id/panduan"
+            android:icon="@drawable/ic_menu_tentang"
+            android:title="Panduan Qimen" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_menu_feedback"
+            android:title="Feedback" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Bagikan Aplikasi"
+            app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+            />
+
+        <item
+            android:id="@+id/rating"
+            android:icon="@drawable/ic_menu_rating"
+            android:title="Beri Rating Aplikasi" />
+    </group>
+</menu>

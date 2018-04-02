@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp"
+tools:context="com.gusbayok.qimen.qimen.LupaPassActivity"
+tools:showIn="@layout/activity_lupa_pass">
+
+   <TextView
+       android:layout_marginBottom="10dp"
+       android:paddingTop="40dp"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Lupa Password?"
+       android:textStyle="bold"
+       android:textSize="35dp"/>
+<TextView
+    android:layout_marginBottom="16dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="16dp"
+    android:text="Ubah Password anda melalui email yang telah didaftarkan sebelumnya."/>
+
+<com.rengwuxian.materialedittext.MaterialEditText
+    android:id="@+id/input_nama"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Masukan Email Anda"
+    android:textAlignment="center"
+    android:inputType="textPersonName"
+    android:textSize="16sp"
+    app:met_floatingLabel="highlight" />
+
+
+<Button
+    android:id="@+id/simpan_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Kirim"
+    android:background="@color/colorMasuk"
+    android:textAllCaps="true"
+    android:textSize="16sp" />
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:background="#EAECEB"
+    android:orientation="vertical"
+    tools:context="com.gusbayok.qimen.qimen.ListAduanActivity"
+    tools:showIn="@layout/activity_list_aduan">
+
+
+<TextView
+    android:id="@+id/noresult"
+    android:visibility="gone"
+    android:padding="15dp"
+    android:text="No Result"
+    android:gravity="center"
+    android:textColor="#737272"
+    android:textSize="20sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="424dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="15dp">
+
+            <include
+                layout="@layout/listitem_aduan"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

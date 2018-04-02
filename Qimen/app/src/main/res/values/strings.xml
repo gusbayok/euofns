@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">QMEN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_list_aduan">Daftar Aduan</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_tentang">TENTANG QIMEN</string>
+    <string name="title_activity_panduan">PANDUAN QIMEN</string>
+    <string name="title_activity_feedback">FEEDBACK QIMEN</string>
+    <string name="title_activity_logins">Login</string>
+    <string name="item_title">Palais Garnier</string>
+    <string name="item_desc">The Palais Garnier which locates in Paris was built from 1861 for
+        the Paris Opera.
+    </string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Masuk</string>
+    <string name="action_sign_in_short">Login</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_home">QMEN</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_list_profil">List Menu Profil</string>
+    <string name="title_activity_detail_menu">Detail Berita</string>
+    <string name="title_activity_list_pemerintahan">List Menu Pemerintahan</string>
+    <string name="title_activity_list_pariwisata">List Menu Pariwisata</string>
+    <string name="title_activity_detail_tentang">Detail Tentang</string>
+    <string name="title_activity_detail_panduan">Detail Panduan</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_alamat">Alamat</string>
+    <string name="hint_name">Nama Lengkap</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Daftar</string>
+    <string name="btn_link_to_register">Belum pernah mendaftar? daftar sekarang.</string>
+    <string name="btn_link_to_login">Sudah registrasi? silahkan login disini.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="title_activity_warga">Q-Men Warga</string>
+    <string name="title_activity_lupa_pass">Q-Men</string>
+    <string name="title_activity_maps_warga">Map</string>
+
+    <string name="title_dialog">Ambil Gambar dari Kamera atau Galeri</string>
+    <string name="permission_dialog">Akses Lokasi Gambar Dibutuhkan Oleh Sistem</string>
+    <string name="go_to_permissions_settings">Go to App settings and enable permissions</string>
+    <string name="title_activity_daftar_user">Daftar Pengguna Warga</string>
+    <string name="title_activity_detail_aduan">DetailAduanActivity</string>
+
+</resources>

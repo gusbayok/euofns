@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:paddingLeft="0dp"
+android:paddingRight="0dp"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="com.gusbayok.qimen.qimen.DetailMenuActivity"
+tools:showIn="@layout/activity_detail_menu">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="0dp"
+    android:paddingLeft="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingRight="0dp"
+        android:paddingLeft="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView android:text="RSUD Kebumen RSUD Kebumen RSUD Kebumen RSUD Kebumen RSUD Kebumen"
+            android:id="@+id/judul"
+            android:textSize="18sp"
+            android:textColor="#FFF"
+            android:padding="10dp"
+            android:background="@color/colorJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
+            android:background="@drawable/asasasas"
+            android:id="@+id/gambar"
+            android:scaleType="fitXY"
+            android:layout_width="wrap_content"
+            android:layout_height="230dp" />
+
+        <TextView android:text="ID"
+            android:id="@+id/id"
+            android:visibility="gone"
+            android:paddingTop="6dp"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_height="3px"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:background="@color/colorIreng"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Oleh : "
+                android:textColor="#a9a9a9"
+                android:singleLine="true"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/kat"
+                android:text="Admin"
+                android:layout_marginLeft="5dp"
+                android:textColor="#0BA5A5"
+                android:singleLine="true"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </LinearLayout>
+
+        <TextView android:text="12 Januari 2017"
+            android:paddingTop="3dp"
+            android:textSize="13sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/tgl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <View
+            android:layout_height="3px"
+            android:padding="10dp"
+            android:layout_width="fill_parent"
+            android:background="@color/colorIreng"/>
+
+        <TextView android:text="Fusce bibendum leo at augue mollis, sit amet fermentum felis pretium. Donec a dignissim nisl. Mauris et neque libero. Pellentesque vulputate, libero et dapibus tincidunt, libero nulla commodo massa, id porttitor ligula eros nec ligula. Sed porttitor porttitor velit, nec laoreet mauris faucibus eget. Etiam dictum lorem molestie, accumsan lorem id, pharetra magna. Sed at lorem lectus. Donec consectetur metus sit amet risus elementum, vestibulum mollis arcu vehicula. Vestibulum volutpat fringilla sem, eu aliquet odio fermentum condimentum. Curabitur at ex et nisi aliquam dapibus sed placerat augue. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam non efficitur risus. Aenean leo risus, viverra et eros vitae, efficitur efficitur odio. Mauris at dictum felis, in maximus est."
+            android:id="@+id/isi"
+            android:layout_gravity="center_vertical|right"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+

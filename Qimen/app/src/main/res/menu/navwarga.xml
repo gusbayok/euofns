@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_beranda"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Beranda"
+        android:checked="true"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/navigation_profil"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="Aduan"
+        android:checked="false"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/navigation_tentang"
+        android:icon="@drawable/ic_tentang_black_24dp"
+        android:title="Tentang"
+        android:checked="false"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/navigation_tracking"
+        android:icon="@drawable/ic_tracking"
+        android:title="Tracking"
+        android:checked="false"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/navigation_akun"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="Akun"
+        android:checked="false"
+        app:showAsAction="always|withText" />
+
+</menu>
